@@ -146,7 +146,7 @@ body {
     padding: 100px 350px;
 }
 .gradient-elements{
-    background-image: url('/images/watch.png');
+    background-image: url('../images/watch.png');
     background-repeat: no-repeat;
     background-blend-mode: soft-light;
 }
