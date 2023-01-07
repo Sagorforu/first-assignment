@@ -1,0 +1,222 @@
+html,
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Full banner section */
+.background-image {
+    background-image: url('../images/banner/banner3.png');
+    position: relative;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 900px;
+    width: 100%;
+}
+
+.banner {
+    text-align: left;
+    position: absolute;
+    background-position: center;
+    float: right;
+    height: 900px;
+    width: 35%;
+    text-align: right;
+    margin-left: 1000px;
+    padding-top: 100px;
+}
+
+.banner-header {
+    font-size: 75px;
+    font-weight: 700;
+    color: aliceblue;
+}
+
+.banner-paragraph {
+    font-size: 20px;
+    font-weight: 300;
+    color: aliceblue;
+    padding-top: -50px;
+    margin: 0 0 80px 0;
+}
+.contact-us {
+    background-color: aliceblue;
+    color: rgb(1, 196, 196);
+    text-align: center;
+    border: none;
+    border-radius: 5px;
+    font-size: 25px;
+    font-weight: 700;
+    margin-top: 35px;
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+.banner-button-link {
+    color: rgb(4, 179, 219);
+    text-decoration: none;
+}
+
+/* <!-- section female image and h1 and p add --> */
+.female-container {
+    display: flex;
+    margin: 200px 300px 30px 300px;
+    gap: 80px;
+}
+
+.female-writings-elements {
+    padding: 120px 200px 200px 0;
+}
+
+.female-header {
+    font-size: 60px;
+    font-weight: 700;
+}
+
+.para-female {
+    color: rgb(115, 115, 115);
+    font-style: normal;
+    font-weight: 200;
+    padding-bottom: 10px;
+}
+
+.female-list {
+    padding-bottom: 1px;
+    color: rgb(115, 115, 115);
+}
+
+/* <!-- section my plan --> */
+.my-plans {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* section option add */
+.option-flex {
+    display: flex;
+    justify-content: center;
+    gap: 149px;
+}
+.option-elements{
+    margin-top: 50px;
+}
+.option-icon{
+    padding-left: 55px;
+}
+.option-header{
+    font-size: 27px;
+    font-weight: 700;
+}
+.option-p{
+    padding-left: 40px;
+    color: gray;
+    font-weight: 600;
+    font-size: 20px;
+}
+/* <!-- section my skills --> */
+.my-skills {
+    font-size: 35px;
+    font-weight: 700;
+    text-align: center;
+    padding-top: 100px;
+}
+/* section skills add */
+.skills-flex {
+    display: flex;
+    justify-content: center;
+    gap: 149px;
+}
+.skills-elements{
+    margin-top: 50px;
+}
+.skills-icon{
+    padding-left: 55px;
+}
+.skills-header{
+    font-size: 27px;
+    font-weight: 700;
+}
+/* section linearGradient and picture add */
+.gradient{
+    padding: 100px 350px;
+}
+.gradient-elements{
+    background-image: url('/images/watch.png');
+    background-repeat: no-repeat;
+    background-blend-mode: soft-light;
+}
+.blend-image{
+padding-bottom: 400px;
+}
+.blend-head{
+font-size: 45px;
+margin-top: -400px;
+}
+.call-now{
+    
+    height: 50px;
+    width: 50px;
+    background-color: aliceblue;
+    color: rgb(3, 171, 171);
+    text-decoration: none;
+    font-size: 25px;
+    font-weight: 600;
+    padding: 20px 30px;
+    border-radius: 5px;
+}
+/* footer add */
+footer {
+    background-color: rgb(43, 43, 43);
+}
+.future-container{
+    height: 400px;
+    display: flex;
+    padding: 100px 400px;
+    gap: 200px;
+}
+.future-head{
+    font-size: 60px;
+    font-weight: 700;
+    color: aliceblue;
+}
+.future-p{
+    font-size: 20px;
+    font-weight: 400;
+    color: aliceblue;
+}
+.footer-icon{
+    margin-right: 20px;
+}
+.future-subscribe{
+    font-size: 30px;
+    font-weight: 700;
+    color: aliceblue;
+    padding-top: 30px;
+}
+.future-input {
+    padding: 20px 50px 20px 20px;
+    font-size: 20px;
+    background-color: rgb(43, 43, 43);
+    border: 2px solid aliceblue;
+    border-radius: 5px;
+    outline: none;
+    color: aliceblue;
+    margin: 30px 0;
+}
+
+.submit-button{
+    height: 50px;
+    width: 50px;
+    background-color: rgb(0, 130, 205);
+    color: rgb(227, 255, 255);
+    text-decoration: none;
+    font-size: 22px;
+    font-weight: 500;
+    padding: 15px 40px;
+    border-radius: 5px;
+} 
