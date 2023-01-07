@@ -142,27 +142,33 @@ body {
     font-weight: 700;
 }
 /* section linearGradient and picture add */
-.gradient{
-    padding: 100px 350px;
-}
-.gradient-elements{
-    background-image: url('../images/watch.png');
-    background-repeat: no-repeat;
-    background-blend-mode: soft-light;
+.gradient-container{
+    position: relative;
+    padding: 100px 300px;
+    margin-left: 50px;
 }
 .blend-image{
-padding-bottom: 400px;
+    background-image: url('../images/watch.png');
+    background-blend-mode: multiply;
 }
-.blend-head{
-font-size: 45px;
-margin-top: -400px;
+.gradient-text{
+    position: absolute;
+  bottom: 180px;
+  right: 1000px;
+  color: rgb(35, 35, 35);
+  padding-left: 300px;
+  margin-left: 70px;
+}
+.gradient-header{
+    font-size: 45px;
+    position: relative;
+    color: aliceblue;
 }
 .call-now{
-    
     height: 50px;
     width: 50px;
     background-color: aliceblue;
-    color: rgb(3, 171, 171);
+    color: rgb(3, 107, 171);
     text-decoration: none;
     font-size: 25px;
     font-weight: 600;
